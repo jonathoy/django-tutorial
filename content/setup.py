@@ -12,7 +12,7 @@ setup(
     version='0.1',
     packages=find_packages(),
     include_package_data=True,
-    license='BSD License',  # example license
+    license='MIT License',
     description='A simple Django app to conduct Web-based polls.',
     long_description=README,
     url='https://www.example.com/',
@@ -21,13 +21,13 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: X.Y',  # replace "X.Y" as appropriate
+        'Framework :: Django :: 2.2',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',  # example license
+        'License :: OSI Approved :: MIT License',  # example license
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
